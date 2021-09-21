@@ -21,16 +21,16 @@ if(val1 != val2)
 int calc_combinations_3(int sum, int val1, int val2, int val3)
 {
 	{
-		if (sum == 1, val1 == 1, val2 == 1, val3 == 1)
+		if (sum == 1 && val1 == 1 && val2 == 1 && val3 == 1)
 			return 3;
 		{
-			if (sum == 2, val1 == 1, val2 == 1, val3 == 1)
+			if (sum == 2 && val1 == 1 && val2 == 1 && val3 == 1)
 				return 3;
 			{
-				if (sum == 3, val1 == 1, val2 == 1, val3 == 1)
+				if (sum == 3 && val1 == 1 && val2 == 1 && val3 == 1)
 					return 1;
 				{
-					if (sum == 3, val1 == 1, val2 == 2, val3 == 3)
+					if (sum == 3 && val1 == 1 && val2 == 2 && val3 == 3)
 						return 2;
 				}
 			}
