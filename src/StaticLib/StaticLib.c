@@ -8,6 +8,11 @@
 // 2つの数字が等しいですか？
 bool is_same(int val1, int val2)
 {
+	{
+	if (val1 == val2)
+		return true;
+}
+if(val1 != val2)
 	// やること：この処理を数字を比較するように変更します
 	return false;
 }
