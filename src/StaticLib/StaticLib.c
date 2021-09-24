@@ -9,13 +9,13 @@
 bool is_same(int val1, int val2)
 {
 	// やること：この処理を数字を比較するように変更します
-	if (val1 == val2)
+	if (val1 != val2)
 	{
-		return true;
+		return false;
 	}
 	else
 	{
-		return false;
+		return true;
 	}
 }
 
