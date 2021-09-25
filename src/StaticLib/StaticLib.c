@@ -36,14 +36,14 @@ int calc_combinations_3(int sum, int val1, int val2, int val3)
 		if (sum == 3 && val1 == 1 && val2 == 1 && val3 == 1)
 			return 1;
 		{
-		if (sum == 3 && val1 == 1 && val2 == 2 && val3 == 3)
-			return 2;
+			if (sum == 3 && val1 == 1 && val2 == 2 && val3 == 3)
+				return 2;
 
 				}
 			}
 		}
 	}
-	// やること：val1～val3の和がsumになる数字の組み合わせの数を計算します
+	// やること：val1～val3の和がsumになる数字の組み合わせの数を計算する。
 	return 0;
 }
 
