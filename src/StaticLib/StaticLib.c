@@ -43,7 +43,7 @@ int calc_combinations_3(int sum, int val1, int val2, int val3)
 			}
 		}
 	}
-	// やること：val1～val3の和がsumになる数字の組み合わせの数を計算する。
+	// やること：val1～val3の和がsumになる数字の組み合わせの数を計算。
 	return 0;
 }
 
