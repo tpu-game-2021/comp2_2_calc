@@ -1,5 +1,5 @@
 ﻿#define WIN32_LEAN_AND_MEAN             // Windows ヘッダーからほとんど使用されていない部分を除外する
-#include "Windows.h"// Windows API の機能定義
+#include "Windows.h"                    // Windows API の機能定義
 
 #include <stdbool.h>
 
@@ -18,6 +18,8 @@ bool is_same(int val1, int val2)
 			return false;
 		}
 	}
+	// やること：この処理を数字を比較するように変更します
+	return false;
 }
 	// やること：この処理を数字を比較するように変更する。
 
