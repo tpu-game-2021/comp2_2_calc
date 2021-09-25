@@ -28,14 +28,11 @@ int calc_combinations_3(int sum, int val1, int val2, int val3)
 	int a, b, c, d, e, i;
 	int count;
 
-
 	a = val1 + val2;
 	b = val1 + val3;
 	c = val2 + val3;
 	e = val1 + val2 + val3;
 	
-
-
 		count = 0;
 		if (sum == val1)
 		{
@@ -65,6 +62,6 @@ int calc_combinations_3(int sum, int val1, int val2, int val3)
 		{
 			count++;
 		}
+
 		return count;
-	
 }
