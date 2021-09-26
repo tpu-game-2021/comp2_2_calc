@@ -9,8 +9,6 @@
 [![MS Build and Test](https://github.com/Fumirin16/comp2_2_calc/actions/workflows/ms_test.yml/badge.svg)](https://github.com/Fumirin16/comp2_2_calc/actions/workflows/ms_test.yml)
 
 
-
-
 # 進め方
 * 本リポジトリをforkしてください
 * GitHub Actions を有効にしてください。
