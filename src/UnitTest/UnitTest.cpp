@@ -16,7 +16,6 @@ namespace UnitTest
 			int val2 = 0;
 			Assert::AreEqual(true, is_same(val1, val2));
 		}
-
 		TEST_METHOD(TestIsSame1_1)
 		{
 			int val1 = 1;
